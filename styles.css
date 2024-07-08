@@ -3,8 +3,8 @@ body {
 }
 
 nav {
-    padding-left: 50px;
     padding-top: 10px;
+    padding-right: 7vw;
     background-color: #f4e9d0;
     display: flex;
     justify-content: space-around;
@@ -30,20 +30,15 @@ main {
 }
 .upperSection div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 .logo {
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 30% 0;
-    gap: 1vh;
+    position: fixed;
 
 }
 .logo img {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-color: #e66600;
 }
 .title {
@@ -84,7 +79,25 @@ h2 {
     justify-content: space-evenly;
     margin: 2vh 5vw;
     border: 2px solid #1b232d;
+
+}
+
+.project {
+    
 }
 .lowerSection h3{
+    text-align: center;
+}
+.profilePic {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+footer a {
+    background-color: #1b232d;
+    font-family: sans-serif;
+    color: #f4e9d0;
+    text-decoration: none;
     text-align: center;
 }
